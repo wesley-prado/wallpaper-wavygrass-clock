@@ -88,6 +88,10 @@ class VideoController {
     this.#videoContainer.style.display = "block";
   }
 
+  hide() {
+    this.#videoContainer.style.display = "none";
+  }
+
   /**
    * Mutes the video.
    * @param {boolean} mute - Whether the video should be muted or not.
@@ -110,10 +114,6 @@ class VideoController {
       throw new Error("Invalid volume value.");
     }
     this.#videoContainer.volume = vol;
-  }
-
-  hide() {
-    this.#videoContainer.style.display = "none";
   }
 
   setVideoAlignment(position = "center") {
