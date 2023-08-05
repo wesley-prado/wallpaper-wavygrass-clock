@@ -13,8 +13,8 @@ window.wallpaperPropertyListener = {
     minute,
     locale,
     weekday,
-    y_axis_position,
-    x_axis_position,
+    top_position,
+    left_position,
     clock_size_rem,
     clock_color,
   }) {
@@ -47,10 +47,10 @@ window.wallpaperPropertyListener = {
       clockController.start();
     }
 
-    if (y_axis_position || x_axis_position) {
+    if (top_position || left_position) {
       clockController.changeClockPosition(
-        y_axis_position?.value,
-        x_axis_position?.value
+        top_position?.value,
+        left_position?.value
       );
     }
 

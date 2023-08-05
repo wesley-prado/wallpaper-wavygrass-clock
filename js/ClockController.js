@@ -167,12 +167,12 @@ class ClockController {
 
   /**
    * Changes the position of the clock container.
-   * @param {number} y - The percentage value of the top position of the clock container.
-   * @param {number} x - The percentage value of the left position of the clock container.
+   * @param {number} top - The percentage value of the top position of the clock container.
+   * @param {number} left - The percentage value of the left position of the clock container.
    */
-  changeClockPosition(y, x) {
-    if (y) this.#dateContainer.style.top = `${y}%`;
-    if (x) this.#dateContainer.style.left = `${x}%`;
+  changeClockPosition(top, left) {
+    if (top) this.#dateContainer.style.top = `${top}%`;
+    if (left) this.#dateContainer.style.left = `${left}%`;
   }
 
   /**
