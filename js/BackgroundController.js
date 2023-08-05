@@ -56,6 +56,10 @@ class BackgroundController {
    */
   setVideo(src) {
     this.#video = src ?? this.#video;
+
+    if (!this.#video) {
+      this.#videoController.pause();
+    }
   }
 
   setDesktopBackground() {
