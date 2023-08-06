@@ -7,6 +7,7 @@ window.wallpaperPropertyListener = {
     video,
     mute_video,
     video_volume,
+    playback_rate,
     background_alignment,
     option_hour12,
     hour,
@@ -31,6 +32,10 @@ window.wallpaperPropertyListener = {
 
     if (video_volume) {
       backgroundController.setVideoVolume(video_volume.value);
+    }
+
+    if (playback_rate) {
+      backgroundController.setVideoPlaybackRate(playback_rate.value);
     }
 
     if (background_alignment) {

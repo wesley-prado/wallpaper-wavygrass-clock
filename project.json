@@ -13,7 +13,7 @@
       },
       "background_alignment": {
         "condition": "advanced_properties.value == true",
-        "index": 15,
+        "index": 9,
         "options": [
           {
             "label": "Center",
@@ -32,15 +32,15 @@
             "value": "stretch"
           }
         ],
-        "order": 115,
+        "order": 109,
         "text": "Background alignment",
         "type": "combo",
         "value": "center"
       },
       "clock_color": {
         "condition": "advanced_properties.value == true && hide_clock.value == false",
-        "index": 11,
-        "order": 111,
+        "index": 13,
+        "order": 113,
         "text": "Clock color",
         "type": "color",
         "value": "1 1 1"
@@ -48,10 +48,10 @@
       "clock_size_rem": {
         "condition": "advanced_properties.value == true && hide_clock.value == false",
         "fraction": true,
-        "index": 14,
+        "index": 16,
         "max": 100,
         "min": 0,
-        "order": 114,
+        "order": 116,
         "precision": 2,
         "step": 0.1,
         "text": "Clock size",
@@ -67,7 +67,7 @@
       },
       "hour": {
         "condition": "advanced_properties.value == true && hide_clock.value == false",
-        "index": 9,
+        "index": 11,
         "options": [
           {
             "label": "2-digit",
@@ -78,7 +78,7 @@
             "value": "numeric"
           }
         ],
-        "order": 109,
+        "order": 111,
         "text": "Hour",
         "type": "combo",
         "value": "numeric"
@@ -91,6 +91,19 @@
         "text": "Image",
         "type": "file",
         "value": ""
+      },
+      "left_position": {
+        "condition": "advanced_properties.value == true && hide_clock.value == false",
+        "fraction": true,
+        "index": 15,
+        "max": 100,
+        "min": 0,
+        "order": 115,
+        "precision": 2,
+        "step": 0.1,
+        "text": "Left position %",
+        "type": "slider",
+        "value": 50
       },
       "locale": {
         "condition": "hide_clock.value == false",
@@ -304,7 +317,7 @@
       },
       "minute": {
         "condition": "advanced_properties.value == true && hide_clock.value == false",
-        "index": 10,
+        "index": 12,
         "options": [
           {
             "label": "2-digit",
@@ -315,7 +328,7 @@
             "value": "numeric"
           }
         ],
-        "order": 110,
+        "order": 112,
         "text": "Minute",
         "type": "combo",
         "value": "numeric"
@@ -335,11 +348,37 @@
         "type": "bool",
         "value": false
       },
+      "playback_rate": {
+        "condition": "advanced_properties.value == true",
+        "fraction": true,
+        "index": 8,
+        "max": 16,
+        "min": 0.5,
+        "order": 108,
+        "precision": 2,
+        "step": 0.1,
+        "text": "Video playback rate",
+        "type": "slider",
+        "value": 1
+      },
       "schemecolor": {
         "order": 0,
         "text": "ui_browse_properties_scheme_color",
         "type": "color",
         "value": "0.3568627450980392 0.43137254901960786 0.4196078431372549"
+      },
+      "top_position": {
+        "condition": "advanced_properties.value == true && hide_clock.value == false",
+        "fraction": true,
+        "index": 14,
+        "max": 100,
+        "min": 0,
+        "order": 114,
+        "precision": 2,
+        "step": 0.1,
+        "text": "Top position %",
+        "type": "slider",
+        "value": 35
       },
       "video": {
         "condition": "",
@@ -362,7 +401,7 @@
       },
       "weekday": {
         "condition": "advanced_properties.value == true && hide_clock.value == false",
-        "index": 8,
+        "index": 10,
         "options": [
           {
             "label": "Long",
@@ -373,42 +412,16 @@
             "value": "short"
           }
         ],
-        "order": 108,
+        "order": 110,
         "text": "Weekday",
         "type": "combo",
         "value": "long"
-      },
-      "left_position": {
-        "condition": "advanced_properties.value == true && hide_clock.value == false",
-        "fraction": true,
-        "index": 13,
-        "max": 100,
-        "min": 0,
-        "order": 113,
-        "precision": 2,
-        "step": 0.1,
-        "text": "Left position %",
-        "type": "slider",
-        "value": 50
-      },
-      "top_position": {
-        "condition": "advanced_properties.value == true && hide_clock.value == false",
-        "fraction": true,
-        "index": 12,
-        "max": 100,
-        "min": 0,
-        "order": 112,
-        "precision": 2,
-        "step": 0.1,
-        "text": "Top position %",
-        "type": "slider",
-        "value": 35
       }
     }
   },
   "preview": "preview.gif",
-  "tags": ["Landscape", "Nature", "Customizable"],
-  "title": "Wavy grass - Weekday and Time (Revamped)",
+  "tags": ["Landscape"],
+  "title": "Wavy grass - Weekday and Time (12h & 24h format + Locale)",
   "type": "web",
   "version": 3,
   "visibility": "public",
