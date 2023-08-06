@@ -18,6 +18,7 @@ window.wallpaperPropertyListener = {
     left_position,
     clock_size_rem,
     clock_color,
+    hide_clock,
   }) {
     if (image || video) {
       backgroundController.setImage(image?.value);
@@ -65,6 +66,10 @@ window.wallpaperPropertyListener = {
 
     if (clock_color) {
       clockController.color(clock_color.value);
+    }
+
+    if (hide_clock) {
+      clockController.hideClock(hide_clock.value);
     }
   },
 

@@ -251,4 +251,8 @@ class ClockController {
 
     return "#" + hex.padStart(6, "0");
   }
+
+  hideClock(hide = false) {
+    this.#dateContainer.style.display = hide ? "none" : "flex";
+  }
 }
