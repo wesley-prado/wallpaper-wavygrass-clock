@@ -2,6 +2,8 @@
 
 Welcome to the Wavy Grass [Wallpaper Engine](https://store.steampowered.com/app/431960/Wallpaper_Engine/) project! This interactive and visually captivating wallpaper is designed to bring a touch of creativity and customization to your desktop environment. With a stunning combination of wavy grass visuals and a dynamic date and time display, this wallpaper is sure to transform your desktop experience.
 
+![Wavy grass - Weekday and Time](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDV6ZzJ6cnN4cGM1dWhwaGJ6dTIwa2FoNzRybGVweTM4bm03MjJ0dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5rIoHnaHTCOoMTVRCZ/giphy.gif)
+
 ## Features
 
 - **Customizable Backgrounds:** Choose between using the mesmerizing wavy grass video or upload your own images and videos to personalize your wallpaper.
