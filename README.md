@@ -22,13 +22,13 @@ Welcome to the Wavy Grass [Wallpaper Engine](https://store.steampowered.com/app/
 
 ## Getting Started
 
-1. **Download Wallpaper Engine:** Make sure you have Wallpaper Engine installed on your computer.
+1. **Download Wallpaper Engine:** Make sure you have [Wallpaper Engine](https://store.steampowered.com/app/431960/Wallpaper_Engine/) installed on your computer.
 
 2. **Subscribe to Wallpaper:** Head over to Steam Workshop and subscribe to the [Wavy grass - Weekday and Time (Revamped)](https://steamcommunity.com/sharedfiles/filedetails/?id=2884798032).
 
 3. **Open Wallpaper Engine:** Launch Wallpaper Engine and select the Wavy Grass Wallpaper from your collection.
 
-4. **Customize:** Right-click on the wallpaper and access the settings to customize backgrounds, clock settings, alignment, colors, and more.
+4. **Customize:** Check the right panel on the wallpaper and access the settings to customize backgrounds, clock settings, alignment, colors, and more.
 
 ## Feedback and Contributions
 
