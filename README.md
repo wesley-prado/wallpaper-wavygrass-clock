@@ -32,7 +32,7 @@ Welcome to the Wavy Grass [Wallpaper Engine](https://store.steampowered.com/app/
 
 ## Feedback and Contributions
 
-Your feedback and contributions are invaluable to us. If you encounter any issues, have suggestions for improvements, or want to contribute to the project, please feel free to [open an issue](https://github.com/YOUR_USERNAME/wavy-grass-wallpaper/issues) or submit a pull request.
+Your feedback and contributions are invaluable to us. If you encounter any issues, have suggestions for improvements, or want to contribute to the project, please feel free to [open an issue](https://github.com/wesley-prado/wallpaper-wavygrass-clock/issues) or submit a pull request.
 
 ## License
 
